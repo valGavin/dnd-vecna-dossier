@@ -1,0 +1,74 @@
+{
+  "id": "dnd-vecna-dossier",
+  "title": "The Vecna Dossier",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "<p>On countless worlds, his name evokes tales of terror and cruelty. Vecna the Undying King. Vecna the Whispered One. Vecna the Lord of the Rotted Tower.</p>",
+  "url": "https://github.com/valGavin/dnd-vecna-dossier",
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/dnd-vecna-dossier/assets/art/the-vecna-dossier-cover.webp",
+      "thumbnail": "modules/dnd-vecna-dossier/assets/art/the-vecna-dossier-cover.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "tvd-articles",
+      "label": "The Vecna Dossier",
+      "path": "packs/tvd-articles",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "tvd-creatures",
+      "label": "Creatures",
+      "path": "packs/tvd-creatures",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "The Vecna Dossier",
+      "color": "#4b3527f3",
+      "sorting": "m",
+      "packs": [
+        "tvd-articles",
+        "tvd-creatures"
+      ],
+      "folders": []
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "sourceBooks": {
+        "TVD": "The Vecna Dossier"
+      }
+    }
+  }
+}
